@@ -1,12 +1,13 @@
 # don't forget to add: require 'pry'
+require 'pry'
 
 def start_game(player1, player2)
   player1 = Rocky
   player2 = Bullwinkle
   puts "Hello #{player1} & #{player2}"
+  binding.pry
 end
- binding.pry
-  puts "Hello"
+
 
 def play_game(player2)
   "#{player1} is better than #{player2}"
